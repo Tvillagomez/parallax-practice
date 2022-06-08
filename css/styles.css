@@ -1,0 +1,132 @@
+* {font-family: 'Koulen', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(241, 248, 254);
+}
+
+.container {
+    background-color: rgb(249, 237, 237); 
+    margin: auto;
+    height: 100%;
+    width: 1000px;
+}
+/* nav */
+nav {
+    background-color: rgb(241, 248, 254, 0.5);
+    padding: 15px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    float: right;
+}
+
+ul li {
+    background-color: rgb(241, 248, 254);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 3.5%;
+}
+
+ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ul li:hover {
+    background-color: rgb(116, 156, 192);
+}
+
+ul li a:hover {
+    color: rgb(241, 248, 254);
+}
+
+/* jumbotron */
+.jumbotron1 {
+    background: rgb(0, 0, 0) url("../img/sewing.jpg") center; 
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.jumbotron2 {
+    background: rgb(0, 0, 0) url("../img/sew2.jpg") center; 
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.jumbotron3 {
+    background: rgb(0, 0, 0) url("../img/sew3.jpg") center; 
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.jumbotron4 {
+    background: rgb(0, 0, 0) url("../img/sew4.jpg") center; 
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.btn {
+    color: rgb(241, 248, 254);
+    background-color: rgb(116, 156, 192);
+    font-weight: bolder;
+    margin-left: 40%;
+   
+}
+
+/* footer */
+footer {
+    background-color: rgb(241, 248, 254, 0.5);
+    padding: 15px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+    height: 100px;
+}
+
+.b2t {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.b2t:hover {
+    color: rgb(255, 0, 0);
+}
+
+.right {
+    float: right;
+    margin-top: -8px;
+}
+
+h1, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-weight: bolder;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
